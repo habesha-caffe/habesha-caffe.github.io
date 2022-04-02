@@ -1,7 +1,7 @@
 ################## Hero area ##################
 hero_area:
   enable : true
-  bg_image : "images/header.jpg"
+  bg_image : "images/injera-veggie-mix.jpg"
   overlay : true
 
 ################### Gallery ###################
