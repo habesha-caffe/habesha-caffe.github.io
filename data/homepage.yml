@@ -1,33 +1,30 @@
 ################## Hero area ##################
 hero_area:
   enable : true
-  bg_image : "images/injera-veggie-mix.jpg"
+  bg_image : "images/injera-meat-veggie-mix-copyrighted.jpg"
   overlay : true
 
 ################### Gallery ###################
 gallery:
   enable : true
-  title : "FEATURED WORKS"
+  title : "Our Food"
   images:
-    - "images/slider/slider-img-1.jpg"
-    - "images/slider/slider-img-2.jpg"
-    - "images/slider/slider-img-3.jpg"
-    - "images/slider/slider-img-4.jpg"
-    - "images/slider/slider-img-1.jpg"
-    - "images/slider/slider-img-2.jpg"
-    - "images/slider/slider-img-3.jpg"
-    - "images/slider/slider-img-4.jpg"
+    - "images/breakfast.jpg"
+    - "images/breakfast-with-joghurt.jpg"
+    - "images/injera-veggie-mix.jpg"
+    - "images/wot-with-egg.jpg"
+    - "images/injera-meat-veggie-mix-copyrighted.jpg"
 
 ################ About #######################
 about:
-  enable : true
+  enable : false
   image : "images/cooker-img.png"
   title : "Featured Your <span> Restaurant’s</span> Website Has To Look Good"
   description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
   
 ################# Blog ######################
 blog:
-  enable : true
+  enable : false
   title : "Our Latest <span>Blog</span>"
   bg_image : "images/blog/blog-bg.jpg"
   overlay : true
@@ -36,33 +33,83 @@ blog:
 ################# food Menu ################
 pricing:
   enable : true
-  title : "Our Easy <span>PRICE</span>"
-  description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
-  subtitle : "FEATURED ON THE WEEK"
+  title : "Our Food"
+  description: "We serve selection of traditional Eritrean and Ethiopian food."
+  subtitle : "Menu"
   pricing_item:
-  - title: "Pancakes n' Such Titas"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 125.00"
+  - title: "Shiro"
+    description: "Healthy chickpea-based veggie soup"
+    price : "£ 7"
 
-  - title: "Caesar Salad"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 100.00"
+  - title: "Tibs"
+    description: "Lean pieces lamb with tomatoes, spiced habesha butter, rosemary and garlic. With your choice of spiciness."
+    price : "£ 10"
 
-  - title: "Steak with a Garlic and Parsley Risotto"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 20.00"
+  - title: "Dulet"
+    description: "Mix of liver and stomach with garlic, habesha spiced butter, green chilli."
+    price : "£ 8"
 
-  - title: "Meat of Skewers"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 45.00"
+  - title: "Kitfo"
+    description: "Fresh beef with spiced habesha butter with a side of habesha chilli mix.  Can be server raw or slightly cooked."
+    price : "£ 10"
 
-  - title: "Pancakes n' Such"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 25.00"
+  - title: "Beyanetu/Veggie Mix"
+    description: "Shiro, beetroot, mixed salad, kale, chickpea, green beans, green/red/yellow lentils."
+    price : "£ 12"
+
+  - title: "Kwanta Firfir"
+    description: "Dry meat with red chillie, garlic, rosemary, spiced haesha butter, tomatoe"
+    price : "£ 10"
+
+  - title: "Nayxom Firfir"
+    description: "Vegan version of Kwanta firfir without butter and meat."
+    price : "£ 8"
+
+  - title: "Fata"
+    description: "Base of onions, tomatoe, garlic, red pepper mixed with bread."
+    price : "£ 7"
+
+  - title: "Fuul"
+    description: "Fava beans based soup with green chillies, tomatoes, onions, garlic, spiced habesha butter."
+    price : "£ 7"
+
+  - title: "Misto"
+    description: "Lamb stew. With your choice of spicy or not"
+    price : "£ 10"
+
+  - title: "Mahberawi"
+    description: "Mix of 3 meat and 3 veggie dishes."
+    price : "£ 13"
+
+  - title: "Buna/Traditional Coffee"
+    description: "A traditional serving of coffee with a side of popcorn.  A feast for all the senses."
+    price : "Family £ 7 or Single £ 1"
+
+  - title: "Habesha Beer"
+    description: "Asmara, Walia, Habesha"
+    price : "£ 3"
+
+  - title: "Beer"
+    description: "Heineken, Budweiser"
+    price : "£ 2.50, £ 2"
+
+  - title: "Soft Drinks/Juices"
+    description: "Water, Pepsi, Diet Pepsi, Coca-Cola, Diet Coca-Cola, Tango, Fanta, Mango/Guave/Orange/Orange + Passion Fruit Bottled Juice,Fresh Juice Orange/Banana/Avocado"
+    price : "£ 1 and Fresh Juice £ 3"
+
+  - title: "Hot Drinks/Tea"
+    price : "£ 1.50"
+
+  - title: "Black Coffee/Latte/Capuccino/Macchiato"
+    price : "£ 2/£ 2.50/£ 2.50/£ "
+
+  - title: "Araki"
+    description: "Traditional spirit"
+    price : "£ 3"
 
 ################### Subscription ################
 subscription:
-  enable : true
+  enable : false
   bg_image : "images/subscribe-bg.jpg"
   title : "SUBSCRIBE to our <span>NEWSLETTER</span>"
   description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
@@ -73,7 +120,7 @@ subscription:
 
 ################ Contact #######################
 contact:
-  enable : true
+  enable : false
   title: "Let's <span> Contact Us </span>"
   subtitle: "SIGN UP FOR EMAIL ALERTS"
   form_action : "#" #contact form works with formspree.io

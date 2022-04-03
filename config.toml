@@ -87,7 +87,7 @@ socialTitle = "Follow <span>Contact Us</span>"
 [[params.footer.contactItem]]
 title = "Telephone"
 icon = "fa fa-phone"
-content = "TBC"
+content = "07365833630"
 
 [[params.footer.contactItem]]
 title = "Address"
