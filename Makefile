@@ -12,3 +12,6 @@ help: # Generates a list of all targets with their descriptions
 
 restart_module: themes/** # reinitialises submodule after cloning repo
 	git submodule init && git submodule update
+
+serve_mobile_laptop: # serves a website from the laptop accessible from the network
+	IPADDR=$$(ip -4 addr show wlp0s20f3 | grep -oP '(?<=inet\s)\d+(\.\d+){3}') && hugo server --buildDrafts --bind $$IPADDR --baseURL http://$$IPADDR
