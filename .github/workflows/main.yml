@@ -2,7 +2,7 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - dev
 jobs:
   custom-deploy:
     runs-on: ubuntu-20.04
