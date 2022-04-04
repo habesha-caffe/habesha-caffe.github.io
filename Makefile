@@ -10,5 +10,5 @@ MAKEFLAGS += --no-builtin-rules
 help: # Generates a list of all targets with their descriptions
 	@grep ":" ./Makefile | awk "/#/ && !/grep/" | sed -E 's/(.+:).*#(.+)/\x1b[36m\1\x1b[0m\2/g'
 
-restart_module: themes/** # reinitialises submodule if just cloned 
+restart_module: themes/** # reinitialises submodule after cloning repo
 	git submodule init && git submodule update

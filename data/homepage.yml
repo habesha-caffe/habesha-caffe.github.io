@@ -1,19 +1,28 @@
-################## Hero area ##################
+################# Hero area ##################
 hero_area:
   enable : true
-  bg_image : "images/injera-meat-veggie-mix-copyrighted.jpg"
   overlay : true
+  bg_image:
+    - "images/habesha-coffee-1.jpg"
+    - "images/habesha-coffee-7.jpg"
 
 ################### Gallery ###################
 gallery:
   enable : true
   title : "Our Food"
   images:
+    - "images/bread-with-butter.jpg"
     - "images/breakfast.jpg"
     - "images/breakfast-with-joghurt.jpg"
-    - "images/injera-veggie-mix.jpg"
     - "images/wot-with-egg.jpg"
-    - "images/injera-meat-veggie-mix-copyrighted.jpg"
+    # - "images/injera-meat-veggie-mix-copyrighted.jpg"
+    - "images/fata.jpg"
+    # - "images/fir-fir-takeaway.jpg"
+    - "images/fuul.jpg"
+    - "images/kitfo.jpg"
+    - "images/mahberawi.jpg"
+    - "images/veggie-mix-v2.jpg"
+    - "images/wot-with-egg.jpg"
 
 ################ About #######################
 about:
@@ -31,81 +40,86 @@ blog:
 
 
 ################# food Menu ################
-pricing:
-  enable : true
-  title : "Our Food"
-  description: "We serve selection of traditional Eritrean and Ethiopian food."
-  subtitle : "Menu"
-  pricing_item:
-  - title: "Shiro"
-    description: "Healthy chickpea-based veggie soup"
-    price : "£ 7"
+pricing_sections:
+  - title : "Food Menu"
+    enable : true
+    description: "We serve selection of traditional Eritrean and Ethiopian food."
+    # subtitle : "Menu"
+    pricing_item:
+    - title: "Shiro"
+      description: "Healthy chickpea-based veggie soup"
+      price : "£ 7"
 
-  - title: "Tibs"
-    description: "Lean pieces lamb with tomatoes, spiced habesha butter, rosemary and garlic. With your choice of spiciness."
-    price : "£ 10"
+    - title: "Tibs"
+      description: "Lean pieces lamb with tomatoes, spiced habesha butter, rosemary and garlic. With your choice of spiciness."
+      price : "£ 10"
 
-  - title: "Dulet"
-    description: "Mix of liver and stomach with garlic, habesha spiced butter, green chilli."
-    price : "£ 8"
+    - title: "Dulet"
+      description: "Mix of liver and stomach with garlic, habesha spiced butter, green chilli."
+      price : "£ 8"
 
-  - title: "Kitfo"
-    description: "Fresh beef with spiced habesha butter with a side of habesha chilli mix.  Can be server raw or slightly cooked."
-    price : "£ 10"
+    - title: "Kitfo"
+      description: "Fresh beef with spiced habesha butter with a side of habesha chilli mix.  Can be server raw or slightly cooked."
+      price : "£ 10"
 
-  - title: "Beyanetu/Veggie Mix"
-    description: "Shiro, beetroot, mixed salad, kale, chickpea, green beans, green/red/yellow lentils."
-    price : "£ 12"
+    - title: "Beyanetu/Veggie Mix"
+      description: "Shiro, beetroot, mixed salad, kale, chickpea, green beans, green/red/yellow lentils."
+      price : "£ 12"
 
-  - title: "Kwanta Firfir"
-    description: "Dry meat with red chillie, garlic, rosemary, spiced haesha butter, tomatoe"
-    price : "£ 10"
+    - title: "Kwanta Firfir"
+      description: "Dry meat with red chillie, garlic, rosemary, spiced haesha butter, tomatoe"
+      price : "£ 10"
 
-  - title: "Nayxom Firfir"
-    description: "Vegan version of Kwanta firfir without butter and meat."
-    price : "£ 8"
+    - title: "Nayxom Firfir"
+      description: "Vegan version of Kwanta firfir without butter and meat."
+      price : "£ 8"
 
-  - title: "Fata"
-    description: "Base of onions, tomatoe, garlic, red pepper mixed with bread."
-    price : "£ 7"
+    - title: "Fata"
+      description: "Base of onions, tomatoe, garlic, red pepper mixed with bread."
+      price : "£ 7"
 
-  - title: "Fuul"
-    description: "Fava beans based soup with green chillies, tomatoes, onions, garlic, spiced habesha butter."
-    price : "£ 7"
+    - title: "Fuul"
+      description: "Fava beans based soup with green chillies, tomatoes, onions, garlic, spiced habesha butter."
+      price : "£ 7"
 
-  - title: "Misto"
-    description: "Lamb stew. With your choice of spicy or not"
-    price : "£ 10"
+    - title: "Misto"
+      description: "Lamb stew. With your choice of spicy or not"
+      price : "£ 10"
 
-  - title: "Mahberawi"
-    description: "Mix of 3 meat and 3 veggie dishes."
-    price : "£ 13"
+    - title: "Mahberawi"
+      description: "Mix of 3 meat and 3 veggie dishes."
+      price : "£ 13"
 
-  - title: "Buna/Traditional Coffee"
-    description: "A traditional serving of coffee with a side of popcorn.  A feast for all the senses."
-    price : "Family £ 7 or Single £ 1"
+  - title : "Drinks Menu"
+    enable : true
+    # description: "We serve selection of traditional Eritrean and Ethiopian food."
+    # subtitle : "Menu"
+    pricing_item:
+    - title: "Buna/Traditional Coffee"
+      description: "A traditional serving of coffee with a side of popcorn.  A feast for all the senses."
+      price : "Family £ 7 or Single £ 1"
 
-  - title: "Habesha Beer"
-    description: "Asmara, Walia, Habesha"
-    price : "£ 3"
+    - title: "Habesha Beer"
+      description: "Asmara, Walia, Habesha"
+      price : "£ 3"
 
-  - title: "Beer"
-    description: "Heineken, Budweiser"
-    price : "£ 2.50, £ 2"
+    - title: "Heineken"
+      description: "Heineken, Budweiser"
+      price : "£ 2.50, £ 2"
 
-  - title: "Soft Drinks/Juices"
-    description: "Water, Pepsi, Diet Pepsi, Coca-Cola, Diet Coca-Cola, Tango, Fanta, Mango/Guave/Orange/Orange + Passion Fruit Bottled Juice,Fresh Juice Orange/Banana/Avocado"
-    price : "£ 1 and Fresh Juice £ 3"
+    - title: "Soft Drinks/Juices"
+      description: "Water, Pepsi, Diet Pepsi, Coca-Cola, Diet Coca-Cola, Tango, Fanta, Mango/Guave/Orange/Orange + Passion Fruit Bottled Juice,Fresh Juice Orange/Banana/Avocado"
+      price : "£ 1 and Fresh Juice £ 3"
 
-  - title: "Hot Drinks/Tea"
-    price : "£ 1.50"
+    - title: "Hot Drinks/Tea"
+      price : "£ 1.50"
 
-  - title: "Black Coffee/Latte/Capuccino/Macchiato"
-    price : "£ 2/£ 2.50/£ 2.50/£ "
+    - title: "Black Coffee/Latte/Capuccino/Macchiato"
+      price : "£ 2/£ 2.50/£ 2.50/£ "
 
-  - title: "Araki"
-    description: "Traditional spirit"
-    price : "£ 3"
+    - title: "Araki"
+      description: "Traditional spirit"
+      price : "£ 3"
 
 ################### Subscription ################
 subscription:
@@ -124,3 +138,8 @@ contact:
   title: "Let's <span> Contact Us </span>"
   subtitle: "SIGN UP FOR EMAIL ALERTS"
   form_action : "#" #contact form works with formspree.io
+    
+################ Righ Footer Image #######################
+footer_image:
+  enable : false
+  img: "../static/images/logo.jpg"

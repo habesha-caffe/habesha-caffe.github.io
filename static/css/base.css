@@ -1,0 +1,44 @@
+.img-responsive {
+	width: 400px;
+	height: 300px;
+	object-fit: cover;
+}
+
+/* div.fill-screen { */
+	/* margin: 0 0 0 0; */
+	/* position: fixed; */
+	/* text-align: center; */
+/* } */
+img.img-responsive-banner {
+	height: 60rem;
+}
+
+div.footer-image-div {
+	margin-right: 0;
+}
+img.footer-image {
+	 position: fixed;
+	 bottom: 4%;
+	 right: 20%;
+	 height: 70px;
+}
+
+div.footer-image-outer {
+	position: relative;
+	height: 24px;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 0px;
+}
+
+ /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
