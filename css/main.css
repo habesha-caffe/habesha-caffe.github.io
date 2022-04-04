@@ -798,7 +798,8 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
     footer-bottom Start
 --*/
 #footer-bottom {
-  background: #E9E9E9;
+  /* background: #E9E9E9; */
+  background: #FFF;
   padding: 20px 0px;
 }
 
