@@ -20,6 +20,8 @@ URL = "css/venobox.css"
 URL = "css/main.css"
 [[params.plugins.css]]
 URL = "css/responsive.css"
+[[params.plugins.css]]
+URL = "css/base.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -83,6 +85,9 @@ contactInfoTitle = "CONTACT <span>INFO</span> "
 galleryTitle = "PHOTO <span>STREAM</span>"
 socialTitle = "Follow <span>Contact Us</span>"
 
+[params.footer_image]
+enable = true
+image = "images/logo_cropped.jpg"
 ############################ footer contact item
 [[params.footer.contactItem]]
 title = "Telephone"
@@ -101,22 +106,22 @@ content = "habeshacaffe.notts@gmail.com"
 
 ######################### footer gallery
 [[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
+# image = "images/slider/slider-img-1.jpg"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
+# image = "images/slider/slider-img-2.jpg"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-3.jpg"
+# image = "images/slider/slider-img-3.jpg"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-4.jpg"
+# image = "images/slider/slider-img-4.jpg"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
+# image = "images/slider/slider-img-1.jpg"
 
 [[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
+# image = "images/slider/slider-img-2.jpg"
 
 ######################## Social Icon 
 # [[params.footer.socialLink]]
